@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>SirMajed | Portofolio</title>
+  <link rel="stylesheet" href="style/index.css">
+  <!-- Development -->
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+  <!-- Production -->
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script type="text/javascript">
+
+    function myF() {
+      tippy('#psd', {
+        content: "Adobe Photoshop",
+        placement: "bottom",
+      });
+      tippy('#xd', {
+        content: "Adobe Xd",
+      });
+      tippy('#fi', {
+        content: "Figma",
+        placement: "bottom",
+      });
+      tippy('#ve', {
+        content: "Sony Vegas",
+      });
+      tippy('#phone', {
+        content: "+966 563606120",
+      });
+      tippy('#me', {
+        content: "This is me :)",
+        placement: "bottom",
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="contactMe">
+      <a href="mailto:alhasenmajed@gmail.com"><img src="img/Chat_Blue.png" alt="">Contact Me</a>
+    </div>
+    <div class="navIcons">
+      <a href="https://www.youtube.com/sidrozzhd" target="_blank"><img src="img/Youtube_Gray.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/alhasenmajed/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+      <a id="phone" onmouseover="myF()" href="#"><img src="img/phone.png" alt=""></a>
+    </div>
+  </div>
+
+  <div class="landing">
+    <div class="landingWrapper">
+      <div class="landingL">
+        <h1>Majed Ahmed</h1>
+        <p>Hello I'm Majed Ahmed. Iam UI/UX<br> Designer, Web developer &amp; <span class="blue">Graphic Designer.</span></p>
+        <hr class="new1">
+        <ul>
+          <li>
+            <p>Web Developer</p>
+          </li>
+          <li>
+            <p>UI/UX</p>
+          </li>
+          <li>
+            <p>Graphic Designer</p>
+          </li>
+          <li>
+            <p>Front-End</p>
+          </li>
+        </ul>
+      </div>
+      <div class="landingR">
+        <img onmouseover="myF()" id="me" src="img/2.png" alt="" width="300px">
+      </div>
+    </div>
+    <img class="scroll" src="img/Scroll.png" alt="">
+  </div>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <p>Over 5 years of design experience using these softwares.</p>
+    <div class="softwares">
+      <img onmouseover="myF()" id="psd" src="img/Ps.png">
+      <img onmouseover="myF()" id="xd" src="img/Xd.png">
+      <img onmouseover="myF()" id="fi" src="img/figma.png">
+      <img onmouseover="myF()" id="ve" src="img/vegas.png">
+    </div>
+  </div>
+
+  <div class="part">
+    <h2>Projects</h2>
+    <p>Here you can find the <span class="blue"> Projects </span> that I made.</p>
+  </div>
+
+  <div class="work clearfix">
+    <div class="workText">
+      <h1>FCIT Covid</h1>
+      <a href="https://fcit.netlify.app/" target="_blank">
+        <h5>View Project</h5>
+      </a>
+      <div class="underline"></div>
+    </div>
+    <!-- <ul>
+        <li><a href="#"><img src="img/Dribbble_Black.png"></a></li>
+        <li><a href="#"><img src="img/Youtube_Black.png"></a></li>
+        <li><a href="#"><img src="img/Be_Black.png"></a></li>
+      </ul> -->
+    <img src="img/Project1.jpg" alt="" class="workImg">
+  </div>
+
+
+  <div class="work2 clearfix">
+    <div class="workText">
+      <h1>Sample Project</h1>
+      <a href="#">
+        <h5>View Project</h5>
+      </a>
+      <div class="underline"></div>
+    </div>
+    <!-- <ul>
+        <li><a href="#"><img src="img/Dribbble_Black.png"></a></li>
+        <li><a href="#"><img src="img/Youtube_Black.png"></a></li>
+        <li><a href="#"><img src="img/Be_Black.png"></a></li>
+      </ul> -->
+    <img src="img/Project2.jpg" alt="" class="workImg">
+  </div>
+</body>
+
+</html>
