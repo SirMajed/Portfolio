@@ -142,6 +142,7 @@ hr.new1 {
 .work > .workText{
   position: absolute;
   top: 85px;
+  margin-left: -20px;
 }
 .work > .workText > .underline{
   display: block;
@@ -176,6 +177,7 @@ hr.new1 {
 .work2 > .workText{
   position: absolute;
   top: 85px;
+  margin-right: -100px;
   right: 0;
   text-align: right;
 }
